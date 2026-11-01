@@ -1,0 +1,8 @@
+{
+  "name": "Dr. Shariful Alam – Medical Specialist Portfolio",
+  "description": "Portfolio of Dr. Shariful Alam (MBBS, MD - Fictional Specialist), clinical consultant in Dhaka, Bangladesh. Chamber locations, visiting hours, and serial booking enquiry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

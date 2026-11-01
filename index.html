@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Shariful Alam – Medical Specialist Portfolio | Dhaka, Bangladesh</title>
+    <meta
+      name="description"
+      content="Official portfolio of Dr. Shariful Alam (MBBS, MD - Fictional Specialist), clinical consultant in Dhaka, Bangladesh. Chamber locations, visiting hours, and serial booking enquiry."
+    />
+
+    <!-- Google Fonts: Plus Jakarta Sans & Hind Siliguri for Bengali -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- OpenGraph Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dr. Shariful Alam – Medical Specialist Portfolio" />
+    <meta
+      property="og:description"
+      content="Clinical consultant portfolio in Dhaka, Bangladesh. Find chamber schedules, specialties, and appointment booking enquiries."
+    />
+    <meta property="og:site_name" content="Dr. Shariful Alam Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="bn_BD" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dr. Shariful Alam – Medical Specialist Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Clinical consultant portfolio in Dhaka, Bangladesh. Chamber locations, visiting hours, and online appointment enquiries."
+    />
+
+    <!-- Schema.org JSON-LD Structured Data for Medical Practitioner -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Shariful Alam",
+      "description": "Fictional Medical Specialist & Consultant Physician practicing in Dhaka, Bangladesh.",
+      "medicalSpecialty": ["Cardiology", "Internal Medicine", "Preventive Care"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Road 8/A, Dhanmondi",
+        "addressLocality": "Dhaka",
+        "addressRegion": "Dhaka Division",
+        "postalCode": "1209",
+        "addressCountry": "BD"
+      },
+      "telephone": "+880-1711-000000",
+      "priceRange": "$$",
+      "availableService": [
+        {
+          "@type": "MedicalProcedure",
+          "name": "Clinical Consultation & Diagnostics"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Cardiovascular Health Assessment"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-white text-slate-800 antialiased selection:bg-teal-100 selection:text-teal-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
